@@ -16,6 +16,7 @@ RUN echo "Install build dependencies" && \
         bash \
         curl \
         docker-compose \
+        git \
         make \
         python3 && \
   echo "Symlink python3 dependencies to python" && \
@@ -23,10 +24,9 @@ RUN echo "Install build dependencies" && \
       ln -s /usr/bin/pip3    /usr/bin/pip && \
   echo "Install Ansible" && \
       pip install --no-cache-dir \
-        ansible==2.7.10 \
+        ansible \
         awscli \
+        PyGithub \
         pyyaml && \
   echo "Cleanup" && \
       apk del .deps
-
-COPY dockerd-entrypoint.sh /

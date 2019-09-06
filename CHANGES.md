@@ -1,5 +1,11 @@
 # CHANGES
 
+## 0.2.0
+
+- Cleanup: Removed entrypoint file
+- Feature: Installed git and PyGithub
+- Refactor: Removed ansible version to always follow the latest
+
 ## 0.1.1
 
 - Bugfix: Empty Dockerfile was mistakenly commited
