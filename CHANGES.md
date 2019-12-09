@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.3.0
+
+- Feature: Added NodeJS dependencies
+
 ## 0.2.0
 
 - Cleanup: Removed entrypoint file
