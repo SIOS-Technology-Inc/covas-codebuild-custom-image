@@ -18,7 +18,10 @@ RUN echo "Install build dependencies" && \
         docker-compose \
         git \
         make \
-        python3 && \
+        nodejs \
+        npm \
+        python3 \
+        yarn && \
   echo "Symlink python3 dependencies to python" && \
       ln -s /usr/bin/python3 /usr/bin/python && \
       ln -s /usr/bin/pip3    /usr/bin/pip && \
