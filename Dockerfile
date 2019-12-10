@@ -21,7 +21,8 @@ RUN echo "Install build dependencies" && \
         nodejs \
         npm \
         python3 \
-        yarn && \
+        yarn \
+        zip && \
   echo "Symlink python3 dependencies to python" && \
       ln -s /usr/bin/python3 /usr/bin/python && \
       ln -s /usr/bin/pip3    /usr/bin/pip && \

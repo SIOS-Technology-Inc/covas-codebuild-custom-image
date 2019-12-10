@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.4.0
+
+- Feature: Added zip
+
 ## 0.3.0
 
 - Feature: Added NodeJS dependencies
