@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.6.0
+
+- Refactor: Disabled BuildKit by default
+
 ## 0.5.0
 
 - Feature: Enabled BuildKit by default
