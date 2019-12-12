@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.7.0
+
+- Feature: Upgraded base image to docker:19-dind
+
 ## 0.6.0
 
 - Refactor: Disabled BuildKit by default
