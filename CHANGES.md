@@ -1,5 +1,10 @@
 # CHANGES
 
+## 0.5.0
+
+- Feature: Enabled BuildKit by default
+- Feature: Installed docker-compose 1.25.0
+
 ## 0.4.0
 
 - Feature: Added zip

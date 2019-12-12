@@ -15,7 +15,6 @@ RUN echo "Install build dependencies" && \
       apk add --no-cache \
         bash \
         curl \
-        docker-compose \
         git \
         make \
         nodejs \
@@ -30,7 +29,12 @@ RUN echo "Install build dependencies" && \
       pip install --no-cache-dir \
         ansible \
         awscli \
+        docker-compose \
         PyGithub \
         pyyaml && \
   echo "Cleanup" && \
       apk del .deps
+
+# Enable BuildKit by default.
+ENV DOCKER_BUILDKIT 1
+ENV COMPOSE_DOCKER_CLI_BUILD 1
