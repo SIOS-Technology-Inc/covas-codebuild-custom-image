@@ -34,7 +34,3 @@ RUN echo "Install build dependencies" && \
         pyyaml && \
   echo "Cleanup" && \
       apk del .deps
-
-# Enable BuildKit by default.
-ENV DOCKER_BUILDKIT 1
-ENV COMPOSE_DOCKER_CLI_BUILD 1
