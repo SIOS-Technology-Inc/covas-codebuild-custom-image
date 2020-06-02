@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.8.0
+
+- Feature: Installed jq and yq
+
 ## 0.7.0
 
 - Feature: Upgraded base image to docker:19-dind
